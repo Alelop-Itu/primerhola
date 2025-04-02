@@ -1,31 +1,117 @@
-<!--Aquí van los comentarios del código-->>
-<!DOCTYPE html> <!--Define el tipo de archivo-->>
-<html lang="en"> <!--Tag en pares-->>
+<!--Aquí van los comentarios del código-->
+<!DOCTYPE html> <!--Define el tipo de archivo-->
+<html lang="es"> <!--Tag en pares-->
 <head>
-    <meta charset="UTF-8"> <!--Aquí definimos el tipo de documentos a utilizar-->>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Aquí se define el tamaño de la página web-->>
+    <meta charset="UTF-8"> <!--Aquí definimos el tipo de documentos a utilizar-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Aquí se define el tamaño de la página web-->
     <title>Primera página web</title>
+    <link rel="stylesheet" href="style.css"> <!--Aquí enlazo el archivo css--->
 </head>
-<body>
+
+<body style="background-color: rgb(226, 210, 210);"> <!--Aquí defino el color de fondo de la página--->
+
 <!---Etiquetas de texto-->
-<h1>Aquí está el título de la página</h1>
+
+<h1 style="background-color: chartreuse;">Aquí está el título 1 </h1>
 <h2>Aquí está el título 2</h2>
 <h3>Aquí está le subtítulo 3</h3>
 <h4>Aquí está le subtítulo 4</h4>
 <h5>Aquí está le subtítulo 5</h5>
 <h6>Aquí está le subtítulo 6</h6>
+
+
+<br> <!--Salto de línea--->
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos similique impedit eos inventore tempora sint,<br> 
 ste quis nobis unde accusamus, quibusdam consequuntur facilis, accusantium corrupti beatae fugiat asperiores officiis numquam?
+
 <!--Etiqueta de párrafo-->
-<p>
+
+<p style="background-color:aqua">
     Lorem ipsum dolor sit amet<strong> consectetur adipisicing elit</strong>. Inventore exercitationem minus,<br> 
      suscipit ducimus voluptatum eum mollitia corporis omnis repellat sed corrupti minima <br> 
      delectus nesciunt libero maxime reprehenderit asperiores velit aut.
     </p>
     <hr>
+
     <!--Etiquetas enlace-->>
-    <a href="https://www.youtube.com/watch?v=9OFpfTd0EIs" target="_blank"> Video de youtube</a> <!--Etiqueta de enlace-->>
-<!--Aquí me puedo enlazar a archivos css de mi proyecto-->>
-<link rel="stylesheet" href="style.css"> <!--Aquí enlazo el archivo css--->>
+
+    <a style="background-color:aqua"href="https://www.youtube.com/watch?v=9OFpfTd0EIs" target="_blank"> Video de youtube</a> <!--Etiqueta de enlace-->
+         <!--Aquí me puedo enlazar a archivos css de mi proyecto-->
+<br>
+<hr>
+
+<!--Imagen-->
+<img src="img/lego.png" alt="Imagen Lego" width="200px" height="200px" style="border-radius: 10%;"> <br>
+<br>
+<img src="img/avatar.webp" alt="avatar" width="100px" height="100px" style="border-radius: 10%;"> <br>
+<br > 
+<a href="páginas/contacto.html"> Ir a contáctame</a> <br>
+<br> 
+<a href="páginas/otras páginas/nosotros.html"> Ir a nosotros </a> 
+
+<!--Etiquetas de lista-->
+<br>
+
+<h2>Países de latinoamérica</h2>
+<ul>
+    <li>Argentina</li> 
+    <li>Ecuador</li> 
+    <li>Perú</li> 
+</ul>
+
+<br>
+
+<h2>Listas ordenadas; Tabla de posiciones liga pro</h2>
+<ol type="I">
+    <li>Barcelona</li> 
+    <li>Independiente del valle</li>
+    <li>El nacional</li> 
+    <li>Liga Deportiva</li>
+</ol>
+
+<!--Tablas-->
+    <table border="1">
+        <thead>
+            <th>Número</th> <!--Etiqueta de encabezado de tabla--->
+            <th>País</th> <!--Etiqueta de encabezado de tabla--->
+            <th>Población</th> 
+            <th colspan="3">Nombres</th><!--Etiqueta de encabezado de tabla--->
+        </head>
+        
+        <tbody>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Ecuador</td>
+            <td>180000</td>
+            <td>Alejandra</td>
+            <td>López</td>
+            <td>96</td>
+        </tr>
+  
+        <tr>
+            <td>Ecuador</td>
+            <td>180000</td>
+            <td>Alejandra</td>
+            <td>López</td>
+            <td>96</td>
+        </tr>
+    </tbody>
+
+<table> 
+
+    <!--Contenedores-->
+    <section>
+        <div style="text-align:center;">
+            <h2> Formulario </h2>     
+        </div>
+           <!--Creando el formulario-->
+        <div>   
+            <form action="">
+            <label for="">Ingrese el nombre</label>
+            <input type="text" name="" id="" placeholder="Ingrese su nombre" required>
+            </form>
+        
+        </div>
+    </section>
 </body>
 </html>
